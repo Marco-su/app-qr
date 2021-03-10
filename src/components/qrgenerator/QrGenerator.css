@@ -1,0 +1,65 @@
+/*  */
+#generator-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+#generator-container form,
+#generator-container figure {
+  padding: 1rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+}
+
+#generator-container h3 {
+  color: var(--textcolor);
+}
+
+#generator-container .url-label {
+  color: var(--textcolor);
+}
+
+#generator-container .color-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#generator-container .input-color-container {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  background: #fff;
+  margin-right: 1rem;
+}
+
+#generator-container .input-color-container label {
+  margin-right: 1rem;
+}
+
+#generator-container .input-color-container input {
+  border: none;
+  cursor: pointer;
+}
+
+#generator-container figure {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#generator-container figure img {
+  margin-bottom: 0.7rem;
+}
+
+#generator-container figure a {
+  text-decoration: none;
+  color: #fff;
+}

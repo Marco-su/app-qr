@@ -1,0 +1,10 @@
+/*  */
+#header {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#header span {
+  font-size: 1.6rem;
+  color: var(--textcolor);
+}
