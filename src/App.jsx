@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./common/footer/Footer";
 
 import Header from "./common/header/Header";
 import QrContainer from "./components/qrcontainer/QrContainer";
@@ -11,6 +12,7 @@ function App() {
       <QrContexProvider>
         <QrContainer />
       </QrContexProvider>
+      <Footer />
     </div>
   );
 }
