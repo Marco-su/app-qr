@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/app-qr/static/css/main.166a1787.chunk.css",
-    "main.js": "/app-qr/static/js/main.5198e477.chunk.js",
-    "main.js.map": "/app-qr/static/js/main.5198e477.chunk.js.map",
+    "main.css": "/app-qr/static/css/main.3a12ae2a.chunk.css",
+    "main.js": "/app-qr/static/js/main.40adb8bd.chunk.js",
+    "main.js.map": "/app-qr/static/js/main.40adb8bd.chunk.js.map",
     "runtime-main.js": "/app-qr/static/js/runtime-main.8ce6ffb5.js",
     "runtime-main.js.map": "/app-qr/static/js/runtime-main.8ce6ffb5.js.map",
     "static/js/2.05264bde.chunk.js": "/app-qr/static/js/2.05264bde.chunk.js",
     "static/js/2.05264bde.chunk.js.map": "/app-qr/static/js/2.05264bde.chunk.js.map",
     "index.html": "/app-qr/index.html",
-    "static/css/main.166a1787.chunk.css.map": "/app-qr/static/css/main.166a1787.chunk.css.map",
+    "static/css/main.3a12ae2a.chunk.css.map": "/app-qr/static/css/main.3a12ae2a.chunk.css.map",
     "static/js/2.05264bde.chunk.js.LICENSE.txt": "/app-qr/static/js/2.05264bde.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8ce6ffb5.js",
     "static/js/2.05264bde.chunk.js",
-    "static/css/main.166a1787.chunk.css",
-    "static/js/main.5198e477.chunk.js"
+    "static/css/main.3a12ae2a.chunk.css",
+    "static/js/main.40adb8bd.chunk.js"
   ]
 }
