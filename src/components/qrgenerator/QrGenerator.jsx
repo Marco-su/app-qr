@@ -4,6 +4,7 @@ import { useContext, useState } from "react";
 
 import QrContext from "../../services/qrTypeContext";
 import myQr from "../../assets/portfolio-qr.png";
+import GeneratorInput from "./GeneratorInput";
 
 const QrGenerator = () => {
   const [text, setText] = useState("");
@@ -35,35 +36,29 @@ const QrGenerator = () => {
         {qrType === "url" ? (
           <>
             <label className="url-label">Your URL</label>
-            <input
-              className="form-control mb-3"
+            <GeneratorInput
               type="url"
-              name="url"
               placeholder="https://example.com"
-              required
-              onChange={(e) => setText(e.target.value)}
+              setText={setText}
             />
           </>
         ) : (
-          <input
-            className="form-control mb-3"
+          <GeneratorInput
             type="text"
-            name="text"
             placeholder="Your Text"
-            required
-            onChange={(e) => setText(e.target.value)}
+            setText={setText}
           />
         )}
 
         <div className="color-content mb-3">
-          <div className="input-color-container">
+          <div className="input-color-container mb-2">
             <label>Code color</label>
             <input
               type="color"
               onChange={(e) => setCodeColor(e.target.value)}
             />
           </div>
-          <div className="input-color-container">
+          <div className="input-color-container mb-2">
             <label>Background color</label>
             <input
               type="color"
@@ -71,9 +66,7 @@ const QrGenerator = () => {
               onChange={(e) => setBackgroundColor(e.target.value)}
             />
           </div>
-          <span className="text-danger small mt-2">
-            select contrasting colors
-          </span>
+          <span className="text-danger small">select contrasting colors</span>
         </div>
 
         <button className="btn btn-success">Generate QR</button>
